@@ -1,0 +1,18 @@
+{
+  "name": "bombaz-lite",
+  "private": true,
+  "version": "0.2.1-lite",
+  "description": "BOMBAZ Lite: drop bombs, climb a collapsing tower, break the Core Gates, outrun the Void. From SpaceChakra.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
